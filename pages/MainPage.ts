@@ -37,16 +37,4 @@ export class MainPage {
   const balance = parseFloat((text ?? '').replace('Balance: ', ''));
   return balance;
   }
-
-  // async shouldSeeSuccessMessage(text: string) {
-  //   await expect(this.page.getByText(text)).toBeVisible();
-  // }
-
-  // async shouldSeeError(text: string) {
-  //   await expect(this.page.getByText(text)).toBeVisible();
-  // }
-
-  // async shouldBeOnPage() {
-  //   await expect(this.page).toHaveURL('/');
-  // }
 }
